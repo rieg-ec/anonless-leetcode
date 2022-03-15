@@ -1,0 +1,18 @@
+{
+  "name": "leetcode-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "rieg-ec",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "axios": "^0.26.1",
+    "dotenv": "^16.0.0",
+    "node-telegram-bot-api": "^0.56.0",
+    "nodemon": "^2.0.15"
+  }
+}
